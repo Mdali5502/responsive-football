@@ -1,0 +1,405 @@
+body{
+    background-color: rgb(245, 235, 235);
+    margin: 0px;
+}
+
+
+
+/* Navigation bar start from here-----
+-------------------------------------  */
+
+nav .menu-bar{
+    margin-left: 156px;
+    width: 50%;
+}
+nav .login-bar{
+    margin-top: 20px;
+    margin-right: 100px;
+   
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-family: poppins;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(45,37,160);
+    height: 100px;
+    
+}
+/* 1St part start from here, where back ground blue 
+------------------------------------------------ */
+
+
+.container{
+    width: 100%;
+    height: 468px;
+     background-color: rgb(45,37,160);
+     display: grid;
+     grid-template-columns:repeat(2, 1fr);
+}
+
+
+.page-title h3{
+    margin: 0px;
+    font-family: poppins;
+    font-size: 64px;
+    color: white;
+    width: 485px;
+    height: 230px;
+    line-height: 80px;
+    font-weight: bold;
+    margin-left: 156px;
+    padding-top: 50px;
+}
+.watch-live{
+    border: 1px solid lightcoral;
+    background: #E02C6D;
+    width: 80px;
+    height: 20px;
+    margin-left: 156px;
+    color: white;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 7px 24px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+.watch-live:hover{
+    width: 120px;
+    background-color: rgb(8, 8, 8);
+    color: white;
+    height: 30px;
+    font-size: 18px;
+}
+.fas{
+    margin-left: 8px;
+}
+.login-bar{
+    border: 1px solid lightcoral;
+    background: #E02C6D;
+    width: 70px;
+    height: 20px;
+    margin-top: 42px;
+    color: white;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 20px;
+}
+/* Players part start from here 
+-------------------------------- */
+
+.players{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap:24px;
+    
+   
+    
+}
+.player{
+    width: 330px;
+    height: 474px;
+    border: 1px solid rgb(212, 208, 208);
+    
+}
+.player h3{
+    font-family: poppins;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0px;
+    margin-top: 10px;
+    padding-left: 5px;
+
+}
+.player p{
+    text-align: justify;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 300;
+    color: rgb(133, 131, 131);
+    padding: 5px;
+    
+}
+.player img{
+   padding: 15px;
+}
+.main-container{
+    width: 1050px;
+    margin-left: 150px;
+   
+   
+}
+
+/* Third part start from here :-moz-any(--------
+------------------------------------------------) */
+
+
+.third-part{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.title1 {
+    font-size: 48px;
+    font-family: poppins;
+    font-weight: bold;
+    margin-left: 156px;
+    margin-top: 60px;
+   
+}
+
+.para1 {
+    width: 404px;
+    height: 113px;
+    font-family: poppins;
+    color: #6C6C6C;
+    font-size: 16px;
+    margin-left: 156px;
+    padding-top: 8px;
+  
+}
+/* fourth part start here
+---------------------------------  */
+
+
+.fourth-part{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 100px;
+}
+.para2{
+    width: 404px;
+    height: 113px;
+    font-family: poppins;
+    color: #6C6C6C;
+    font-size: 16px;
+    margin-left: 100px;
+    padding-top: 8px;
+}
+.title2{ font-size: 48px;
+    font-family: poppins;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 60px;
+    color: orangered;
+
+}
+.page-image2{
+    margin-left: 156px;
+}
+.watch-live2{
+    border: 1px solid lightcoral;
+    background: #E02C6D;
+    width: 90px;
+    height: 25px;
+    margin-left: 156px;
+    color: white;
+    flex-direction: row;
+    padding:  0 20px;
+    font-size: 13px;
+    padding-top:8px;
+    }
+
+.watch-live3{
+        border: 1px solid lightcoral;
+        background: #E02C6D;
+        width: 90px;
+        height: 25px;
+        margin-left: 100px;
+        color: white;
+        flex-direction: row;
+        padding:  0 20px;
+        font-size: 13px;
+        padding-top:8px;
+        
+    }
+
+    /* fifth part start from here 
+    ------------------------------ */
+    
+    
+    
+    
+    
+    .fifth-part{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap:24px;
+        width: 1050px;
+        margin-left: 150px;
+        margin-bottom: 50px;
+    }
+    .best-player{
+        width: 330px;
+        height: 480px;
+        border: 1px solid rgb(212, 208, 208);
+        
+    }
+    .fifth-h3{
+        font-size: 50px;
+        font-family: poppins;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 25px;
+
+    }
+    .best-player p{
+        text-align: justify;
+        font-family: poppins;
+        font-size: 15px;
+        font-weight: 300;
+        color: rgb(133, 131, 131);
+        padding: 5px;
+    }
+    .best-player img{
+        padding: 15px;
+        
+     }
+  .best-player h3{
+    font-family: poppins;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0px;
+    margin-top: 10px;
+    padding-left: 5px;
+
+}
+
+
+/* Sixth part start from here -------------
+-------------------------------------- */
+
+
+.football{
+    margin-bottom: 10px;
+}
+.social{
+    width: 200px;
+    height: 32px;
+}
+.fab{
+   width: 25px;
+   height: 25px;
+}
+
+.copyright{
+    text-align: center;
+    color: #000000;
+    font-family: poppins;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+ /* finish line now we are  */
+
+ /* ---------------------------------------------
+ media queries start  from here for mobile device  
+ ------------------------------------------------*/
+
+  
+    @media only screen and (max-width:688px) {
+.container{
+    grid-template-columns: repeat(1,1fr);
+
+}
+.heading-right img{
+    margin-top: 150px;
+    margin-left: 55px;
+}
+.players{
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 390px;
+}
+.third-part{
+    grid-template-columns: repeat(1, 1fr);
+
+}
+.page-image img{
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.page-image2 img{
+    padding-right: 200px;
+    display: block;
+}
+.fifth-part{
+    grid-template-columns: repeat(1, 1fr);
+}
+.fifth-h3{
+    margin-left: 150px;
+    font-size: 30px;
+    
+}
+.social{
+    margin-left: 200px;
+}
+.copyright{
+    margin-left: 250px;
+}
+.page-title h3{
+    font-size: 25px;
+  
+}
+
+        
+    }
+    @media only screen and (min-width:778px) and(max-width:1760px) {
+        .container{
+            grid-template-columns: repeat(2,1fr);
+        
+        }
+        .heading-right img{
+            margin-top: 150px;
+            margin-left: 55px;
+        }
+        .players{
+            grid-template-columns: repeat(2, 1fr);
+            margin-top: 390px;
+        }
+        .third-part{
+            grid-template-columns: repeat(1, 1fr);
+        
+        }
+        .page-image img{
+            margin-left: 80px;
+            margin-top: 10px;
+        }
+        .page-image2 img{
+            padding-right: 200px;
+        }
+        .fifth-part{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .fifth-h3{
+            margin-left: 150px;
+            font-size: 30px;
+            
+        }
+        .social{
+            margin-left: 200px;
+        }
+        .copyright{
+            margin-left: 250px;
+        }
+        .page-title h3{
+            font-size: 25px;
+          
+        }
+        
+                
+            }
+   
+
+    
+    
+
+
+   
